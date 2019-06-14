@@ -6,5 +6,5 @@ docker: docker-build docker-publish
 docker-build:
 	docker build . -t $(DOCKER_IMAGE):$(DOCKER_TAG)
 
-docker-publish:
+docker-publish: docker-build
 	docker push $(DOCKER_IMAGE):$(DOCKER_TAG)
