@@ -1,0 +1,18 @@
+{
+  "name": "@teleport-park/default-backend",
+  "version": "1.0.0",
+  "description": "Simple default backend",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teleport-park/default-backed.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Alexander Sergeychik <alexander.sergeychik@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
